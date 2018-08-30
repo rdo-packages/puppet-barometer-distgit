@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_b56c579d",
+        "filename": "puppet-barometer.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2018-08-30T08:21:37Z",
+      "side": 1,
+      "message": "For RDO Trunk, we are continously building upstream commits, so this version may not be correct in the future, when a new release is tagged.\n\nPlease have a look at https://github.com/rdo-packages/puppet-nova-distgit/blob/rpm-master/puppet-nova.spec#L1-L4 for an example.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 25
+      },
+      "revId": "e7681aa9a96423014b8c12a60ff83aca896f0340",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_9569538e",
+        "filename": "puppet-barometer.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2018-08-30T08:21:37Z",
+      "side": 1,
+      "message": "We are installing in the wrong directory, and we should not be hardcoding version numbers. Please refer to https://github.com/rdo-packages/puppet-nova-distgit/blob/rpm-master/puppet-nova.spec#L41-L46 for an example.",
+      "range": {
+        "startLine": 33,
+        "startChar": 19,
+        "endLine": 35,
+        "endChar": 107
+      },
+      "revId": "e7681aa9a96423014b8c12a60ff83aca896f0340",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_d56fcb90",
+        "filename": "puppet-barometer.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2018-08-30T08:21:37Z",
+      "side": 1,
+      "message": "This is not the right directory for puppet modules, please see https://github.com/rdo-packages/puppet-nova-distgit/blob/rpm-master/puppet-nova.spec#L48 for an example",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 85
+      },
+      "revId": "e7681aa9a96423014b8c12a60ff83aca896f0340",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_f572cf7b",
+        "filename": "puppet-barometer.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2018-08-30T08:21:37Z",
+      "side": 1,
+      "message": "There is no documentation, so it is unnecesarry",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 4
+      },
+      "revId": "e7681aa9a96423014b8c12a60ff83aca896f0340",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
