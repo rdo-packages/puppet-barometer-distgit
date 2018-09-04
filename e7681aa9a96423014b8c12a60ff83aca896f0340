@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_21f809e5",
+        "filename": "puppet-barometer.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 537
+      },
+      "writtenOn": "2018-09-04T22:03:03Z",
+      "side": 1,
+      "message": "Thank you for reviewing this, I will make all the changes with an updated patch.",
+      "parentUuid": "9abe1de1_b56c579d",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 25
+      },
+      "revId": "e7681aa9a96423014b8c12a60ff83aca896f0340",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_9569538e",
         "filename": "puppet-barometer.spec",
         "patchSetId": 3
